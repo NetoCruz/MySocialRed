@@ -14,7 +14,7 @@ export default [
          "Leer", "Programar", "Netflix", "Videojuegos","Compras","Rock"
         ],
         photos:[
-            
+           "paisaje.jpg"
         ],
         description:"orem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat aliquam pharetra. Sed eget suscipit ipsum. Cras id nibh et metus luctus vulputate. Nulla massa lacus, porttitor fringilla fringilla in, pellentesque vitae velit. Cras euismod, ipsum quis lobortis tempor, risus arcu placerat enim, ut tempor ligula sapien id urna."
     },

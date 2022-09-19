@@ -61,6 +61,7 @@ export default function Profile({data}){
                 </div>
 
                 <div className="gallery">
+                  <p>Galería</p>
                   {
                     list.photos.map((item)=>(
                       <img src={`/${item}`} alt="photogallery"/>
