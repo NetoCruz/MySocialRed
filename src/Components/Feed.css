@@ -9,7 +9,7 @@
     width: 500px;
     box-shadow: 0px 2.98px 7.45px rgba(0, 0, 0, 0.1);
 }
-.post img{
+.profile-photo{
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -20,4 +20,7 @@
 }
 .post-title p{
     margin-left: 10px;
+}
+.post-image{
+    height: 300px;
 }

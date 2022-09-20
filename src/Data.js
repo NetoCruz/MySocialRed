@@ -20,7 +20,7 @@ export default [
          {
             fecha:"2010-06-12",
             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat",
-            
+            img:"paisaje.jpg"
          },
          {
             fecha:"2010-07-12",
