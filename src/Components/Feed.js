@@ -3,8 +3,18 @@ import "./Feed.css"
 
 export default function Feed({data}){
      const [filteredList, setFilteredList] = useState(data);
-    
-      const myPosts = filteredList.map((item)=>item.posts.map((post)=>{
+     const [feed, setFedd] = useState([]);
+     
+
+
+   
+      
+
+      const myPosts = filteredList.map((item)=> item.posts
+       .sort((a, b) => new Date(...b.fecha.split('/').reverse()) - new Date(...a.fecha.split('/').reverse()))
+       .map((post)=>{
+         
+       
             return(
          
               <div className="post">
@@ -22,14 +32,15 @@ export default function Feed({data}){
         )
       }))
     
-    console.log(myPosts)
     
+      
 
 
     return(
         <>
         <div className="feed">
-        {myPosts}
+      {myPosts}   
+        
         </div> 
         </>
     )

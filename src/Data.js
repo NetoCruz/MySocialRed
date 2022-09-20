@@ -18,12 +18,12 @@ export default [
         ],
         posts:[
          {
-            fecha:"2010-06-12",
+            fecha:"2022-09-12",
             texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat",
             img:"paisaje.jpg"
          },
          {
-            fecha:"2010-07-12",
+            fecha:"2022-09-10",
             texto:"Lorem ipsum dolor sit amet, ",
             
          }    
@@ -49,15 +49,11 @@ export default [
         ],
         posts:[
             {
-               fecha:"2010-06-12",
+               fecha:"2022-09-15",
                texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat",
                
             },
-            {
-               fecha:"2010-07-12",
-               texto:"Lorem ipsum dolor sit amet, ",
-               
-            }    
+            
            ],
         description:"orem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat aliquam pharetra. Sed eget suscipit ipsum. Cras id nibh et metus luctus vulputate. Nulla massa lacus, porttitor fringilla fringilla in, pellentesque vitae velit. Cras euismod, ipsum quis lobortis tempor, risus arcu placerat enim, ut tempor ligula sapien id urna."
     },
@@ -80,12 +76,12 @@ export default [
         ],
         posts:[
             {
-               fecha:"2010-06-12",
+               fecha:"2022-09-13",
                texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat",
                
             },
             {
-               fecha:"2010-07-12",
+               fecha:"2022-09-11",
                texto:"Lorem ipsum dolor sit amet, ",
                
             }    
@@ -111,15 +107,11 @@ export default [
         ],
         posts:[
             {
-               fecha:"2010-06-12",
+               fecha:"2022-09-16",
                texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat",
                
             },
-            {
-               fecha:"2010-07-12",
-               texto:"Lorem ipsum dolor sit amet, ",
-               
-            }    
+            
            ],
         description:"orem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat aliquam pharetra. Sed eget suscipit ipsum. Cras id nibh et metus luctus vulputate. Nulla massa lacus, porttitor fringilla fringilla in, pellentesque vitae velit. Cras euismod, ipsum quis lobortis tempor, risus arcu placerat enim, ut tempor ligula sapien id urna."
     },
@@ -142,15 +134,11 @@ export default [
         ],
         posts:[
             {
-               fecha:"2010-06-12",
-               texto:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat",
+               fecha:"2022-09-19",
+               texto:"Tembló en México, otra vez...",
                
             },
-            {
-               fecha:"2010-07-12",
-               texto:"Lorem ipsum dolor sit amet, ",
-               
-            }    
+              
            ],
         description:"orem ipsum dolor sit amet, consectetur adipiscing elit. Duis placerat aliquam pharetra. Sed eget suscipit ipsum. Cras id nibh et metus luctus vulputate. Nulla massa lacus, porttitor fringilla fringilla in, pellentesque vitae velit. Cras euismod, ipsum quis lobortis tempor, risus arcu placerat enim, ut tempor ligula sapien id urna."
     },
