@@ -1,6 +1,7 @@
 import React,{useState} from "react";
 import "./Feed.css"
 
+
 export default function Feed({data}){
      const [filteredList, setFilteredList] = useState(data);
      const [feed, setFedd] = useState([]);
@@ -38,10 +39,14 @@ export default function Feed({data}){
 
     return(
         <>
+        
+   
+
         <div className="feed">
       {myPosts}   
         
-        </div> 
+        </div>
+          
         </>
     )
 }

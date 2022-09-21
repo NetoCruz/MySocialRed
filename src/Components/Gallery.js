@@ -6,6 +6,7 @@ import Card from "./Card"
 import StarButton from "./StarButton"
 import { Link } from "react-router-dom";
 
+
 export default function Gallery(){
 
     const [filteredList, setFilteredList] = useState(Data);
@@ -54,7 +55,9 @@ export default function Gallery(){
 
     const cards = filteredData.map(item =>{
         return(
-          
+         
+         
+      
         <div>
             <div className="card--like">
             <StarButton/>
@@ -69,12 +72,16 @@ export default function Gallery(){
             />
            </Link>
             
-          </div>
+          </div> 
+           
         )
        })
 
       
     return(
+      
+  
+
         <div>
         <h1> Mis Contactos</h1>
         {/* <div className="brand-filter">
@@ -123,5 +130,6 @@ export default function Gallery(){
         </section>
         
         </div>
+        
     )
 }

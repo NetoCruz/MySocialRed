@@ -8,6 +8,9 @@ import { useParams } from "react-router-dom";
 export default function Profile({data}){
     const {id} = useParams()
     return(
+      
+    
+
          <div>
             
             <div >
@@ -77,5 +80,6 @@ export default function Profile({data}){
 
            
          </div>
+       
     )
 }
