@@ -122,12 +122,7 @@ console.log(list)
    
 
         <div className="feed">
-<<<<<<< HEAD
-      {myPosts}   
-        
-        </div>
-          
-=======
+
          <button onClick={myData} >click</button> 
         {/* {myPosts}          */}
         {
@@ -151,7 +146,7 @@ console.log(list)
           })
         }
         </div> 
->>>>>>> datepost
+
         </>
     )
 }
