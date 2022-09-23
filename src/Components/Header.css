@@ -21,6 +21,7 @@
 }
 .header--user a{
     text-decoration: none;
+    margin-right: 10px;
 }
 
 .header--user img{

@@ -8,6 +8,9 @@ export default function Header(){
         <div className="header--body">
         <p className="header--title">SocialRed</p>
         <div className="header--user">
+        <Link to="/gallery">
+            Gallery
+            </Link>
             <Link to="/feed">
             Home
             </Link>
