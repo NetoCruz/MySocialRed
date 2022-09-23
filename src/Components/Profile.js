@@ -36,9 +36,9 @@ export default function Profile({data}){
                         <span>${list.price}/hora</span>
                     </div>
                     <div className="profile--social">
-                        <p>Disponibilidad:</p>
-                        <p>{list.age}</p>
-                        <p>{list.location}</p>
+                        <p>Disponibilidad: Completa</p>
+                        <p>Edad: {list.age}</p>
+                        <p>Residencia: {list.location}</p>
                     </div>
                 </div>
                 <div className="profile--likes">
