@@ -6,10 +6,12 @@ import Gallery from './Components/Gallery';
 import Profile from './Components/Profile';
 import Data from './Data'
 import Home from './Components/Home';
+import ScrollToTop from './Components/ScrollTop';
 
 function App() {
   return (
     
+    <ScrollToTop>
        <Routes>
        
          <Route  path='/' element={<Home/>}/>
@@ -17,7 +19,7 @@ function App() {
          <Route  path='/profile/:id' element={<Profile data={Data}/>}/>
          <Route path='/feed' element={<Feed data={Data}/>}/>
        </Routes>
-       
+     </ScrollToTop>  
    
       // <div>
       // <Header/>
