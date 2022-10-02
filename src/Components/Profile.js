@@ -1,6 +1,7 @@
 import React from "react";
 import "./Profile.css";
 import work from "../images/work.svg"
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 
 
 import { useParams } from "react-router-dom";
@@ -46,8 +47,45 @@ export default function Profile({data}){
                     <p className="likes--text">{item}</p>
                    ))}
                 </div>
+
+                <Tabs className="Tabs">
+       <TabList>
+         <Tab>Descripción</Tab>
+         <Tab>Servicios</Tab>
+         <Tab>Galleria</Tab>
+        
+       </TabList>
+<TabPanel>
+<div className="profile--description">
+                    <p>Descripción</p>
+                    
+                    <div className="text">{list.description}</div>
+                    
+                    </div> 
+       </TabPanel>
+       <TabPanel>
+       <div className="profile--services">
+                   <p>Servicios</p>
+                   <div>
+                     <p>Aquí van los servicios</p>
+                   </div>
+                    </div> 
+       </TabPanel>
+       <TabPanel>
+       <div className="gallery">
+                  
+                  {
+                    list.photos.map((item)=>(
+                      <img src={`/${item}`} alt="photogallery"/>
+                    ))
+                  }
+
+                </div>
+       </TabPanel>
+     </Tabs>
+   
                 
-                <div className="profile--descriptions">
+                {/* <div className="profile--descriptions">
                    <div className="profile--services">
                    <p>Servicios</p>
                     </div> 
@@ -71,7 +109,7 @@ export default function Profile({data}){
                     ))
                   }
 
-                </div>
+                </div> */}
                 
                   
                 </div>
