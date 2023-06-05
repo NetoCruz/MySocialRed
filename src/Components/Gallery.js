@@ -12,6 +12,7 @@ export default function Gallery(){
     const [filteredList, setFilteredList] = useState(Data);
   
   const [selectedAge, setSelectedAge] = useState("");
+  const [selectRank, setSelectRank] = useState("")
 
   const [inputText, setInputText] = useState("")
   let inputHandler = (e) => {
@@ -20,39 +21,65 @@ export default function Gallery(){
     setInputText(lowerCase);
   };
   
+  
+
   const filterByAge = (filteredData) => {
     
     if (!selectedAge) {
       return filteredData;
     }
-<<<<<<< HEAD
-   
-=======
 
->>>>>>> 2f712e6c07204807b7a2673737da5676715dd845
     const filteredCars = filteredData.filter(
         (car) => car.age >= parseInt(selectedAge)
       );
       return filteredCars;
-<<<<<<< HEAD
-  
-=======
->>>>>>> 2f712e6c07204807b7a2673737da5676715dd845
     };
+
+    const filterByRank = (filteredData) => {
+    
+      if (!selectRank) {
+        return filteredData;
+      }
+     
+      const filteredrank = filteredData.filter(
+          (car) => car.rank == parseInt(selectRank)
+        );
+        return filteredrank;
+    
+      };
  
     const handleBrandChange = (event) => {
         setSelectedAge(event.target.value);
       };
+
+      const handlerank = (event) => {
+        setSelectRank(event.target.value);
+      };
     
+      
+       useEffect(() => {
+         var filteredData = filterByRank(Data);
+      
+       
+         setFilteredList(filteredData);
+       }, [selectRank,selectedAge]);
+         
+         
+  
+
       useEffect(() => {
+
+        
+
         var filteredData = filterByAge(Data);
+      
        
         setFilteredList(filteredData);
-<<<<<<< HEAD
-      }, [filterByAge]);
-=======
-      }, []);
->>>>>>> 2f712e6c07204807b7a2673737da5676715dd845
+      }, [selectedAge]);
+
+
+      
+
 
       const filteredData = filteredList.filter((el) => {
         //if no input the return the original
@@ -132,6 +159,17 @@ export default function Gallery(){
           value="40"
           onClick={handleBrandChange}
           >+40</button>
+
+
+          <button
+          value="1"
+          onClick={handlerank}
+          >1</button>
+          <button
+          value="2"
+          onClick={handlerank}
+          >2</button>
+
       </div>
 
         <section className="container">

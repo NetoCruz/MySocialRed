@@ -3,16 +3,13 @@ export default [
         id:1,
         img:"profile.png",
         name:"Juan Pérez",
-<<<<<<< HEAD
         age:"23",
-=======
-        age:"43",
->>>>>>> 2f712e6c07204807b7a2673737da5676715dd845
         status:"Connect",
         location:"Veracruz, Ver",
         ocupation:"Ingeniero",
         work:"Autonomo",
         price:"1200.00",
+        rank:"2",
         
         likes:[
          "Leer", "Programar", "Netflix", "Videojuegos","Compras","Rock"
@@ -43,16 +40,13 @@ export default [
         id:2,
         img:"profile.png",
         name:"Felipe Gómez",
-<<<<<<< HEAD
         age:"33",
-=======
-        age:"43",
->>>>>>> 2f712e6c07204807b7a2673737da5676715dd845
         status:"Connect",
         location:"Veracruz, Ver",
         ocupation:"Ingeniero",
         work:"Autonomo",
         price:"1200.00",
+        rank:"1",
         
         likes:[
          "Leer", "Programar", "Netflix", "Videojuegos","Compras","Rock"
@@ -83,6 +77,7 @@ export default [
         ocupation:"Ingeniero",
         work:"Autonomo",
         price:"1200.00",
+        rank:"2",
         
         likes:[
          "Leer", "Programar", "Netflix", "Videojuegos","Compras","Rock"
@@ -120,6 +115,7 @@ export default [
         ocupation:"Ingeniero",
         work:"Autonomo",
         price:"1200.00",
+        rank:"2",
         
         likes:[
          "Leer", "Programar", "Netflix", "Videojuegos","Compras","Rock"
