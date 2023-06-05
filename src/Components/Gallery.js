@@ -25,12 +25,19 @@ export default function Gallery(){
     if (!selectedAge) {
       return filteredData;
     }
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> 2f712e6c07204807b7a2673737da5676715dd845
     const filteredCars = filteredData.filter(
         (car) => car.age >= parseInt(selectedAge)
       );
       return filteredCars;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 2f712e6c07204807b7a2673737da5676715dd845
     };
  
     const handleBrandChange = (event) => {
@@ -41,7 +48,11 @@ export default function Gallery(){
         var filteredData = filterByAge(Data);
        
         setFilteredList(filteredData);
+<<<<<<< HEAD
       }, [filterByAge]);
+=======
+      }, []);
+>>>>>>> 2f712e6c07204807b7a2673737da5676715dd845
 
       const filteredData = filteredList.filter((el) => {
         //if no input the return the original
