@@ -15,7 +15,7 @@ export default [
          "Leer", "Programar", "Netflix", "Videojuegos","Compras","Rock"
         ],
         photos:[
-           "paisaje.jpg"
+           "paisaje.jpg","beauty.jpg","paisaje2.jpg"
         ],
         posts:[
         
@@ -121,7 +121,7 @@ export default [
          "Leer", "Programar", "Netflix", "Videojuegos","Compras","Rock"
         ],
         photos:[
-            
+         "paisaje.jpg"
         ],
         posts:[
         

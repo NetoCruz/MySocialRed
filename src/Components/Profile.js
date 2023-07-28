@@ -2,6 +2,8 @@ import React from "react";
 import "./Profile.css";
 import work from "../images/work.svg"
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
+import Photos from "./Photos";
 
 export default function Profile({data}){
     const {id} = useParams()
@@ -48,7 +50,12 @@ export default function Profile({data}){
                     <section class="detail">
                       <div> 
                       <div class="fotografia">
+                      <Link to={`/photos/${list.id}`} className="card">
                       <p>fotos</p>
+                      {/* <Photos
+                      img={list.photos}
+                      /> */}
+                      </Link>
                       <div class="galleria">
                         <img src="../../public/bris.jpg" width="100px" height="100px" alt=""/>
                         <img src="../../public/bris.jpg" width="100px" height="100px" alt=""/>
@@ -68,8 +75,8 @@ export default function Profile({data}){
                         </div>
                         <div class="about">
                             <p>Acerca de mi</p>
-                            <p>Mujer discreta y amable. A veces es necesario salir de la rutina y <br/>
-                                relajarse un poco. Soy divorciada y tengo varias responsabilidades.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis nibh eu molestie maximus. Fusce laoreet tempor turpis non tempor.<br/>
+                            Phasellus venenatis elementum est, vehicula suscipit nisl sodales vel.</p>
                         </div>
                         <div class="prices">
                           <p>Tarifas</p> 
