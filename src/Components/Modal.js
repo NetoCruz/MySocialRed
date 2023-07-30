@@ -6,7 +6,7 @@ import { RiCloseLine } from "react-icons/ri";
 
 
 
-export default function Modal({ setIsOpen }){
+export default function Modal({ setIsOpen,image }){
 
     
 
@@ -26,9 +26,12 @@ export default function Modal({ setIsOpen }){
           </div>
           <div className="modalActions">
             <div className="actionsContainer">
-              <button className="deleteBtn" onClick={() => setIsOpen(false)}>
+              {/* <button className="deleteBtn" onClick={() => setIsOpen(false)}>
                 Delete
-              </button>
+              </button> */}
+              <div className="photo-grid-item">
+            <img   src={image} alt="card" /> 
+            </div>
               <button
                 className="cancelBtn"
                 onClick={() => setIsOpen(false)}
