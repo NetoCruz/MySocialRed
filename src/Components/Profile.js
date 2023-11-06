@@ -59,8 +59,7 @@ export default function Profile({data}){
                       <div class="galleria">
                         <img src="../../public/bris.jpg" width="100px" height="100px" alt=""/>
                         <img src="../../public/bris.jpg" width="100px" height="100px" alt=""/>
-                        <img src="../../public/bris.jpg" width="100px" height="100px" alt=""/>
-                        <img src="../../public/bris.jpg" width="100px" height="100px" alt=""/>
+                        
                       </div>
                         </div>
                         <div class="interes">
