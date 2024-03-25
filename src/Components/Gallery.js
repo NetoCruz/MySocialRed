@@ -47,13 +47,16 @@ export default function Gallery(){
         return filteredrank;
     
       };
+
+    
  
     const handleBrandChange = (event) => {
         setSelectedAge(event.target.value);
+        
       };
 
       const handlerank = (event) => {
-        setSelectRank(event.target.value);
+       setSelectRank(event.target.value); 
       };
     
       
@@ -147,7 +150,10 @@ export default function Gallery(){
       <div className="searchbutton">
           <button
           value=""
-          onClick={handleBrandChange}
+          onClick={event => {
+            handleBrandChange(event);
+            handlerank(event);
+          }}
           >Todos</button>
 
         <button
