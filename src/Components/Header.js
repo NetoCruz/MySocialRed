@@ -14,8 +14,12 @@ export default function Header(){
             <Link to="/feed">
             Home
             </Link>
-            <p>User01</p>
+
+            <Link to="/user">
+             <p>User01</p>
             <img src={User} alt="user"/>
+            </Link>
+           
         </div>
         </div>
     )
