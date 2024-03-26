@@ -1,6 +1,7 @@
 export default [
     {
         id:1,
+        friend:false,
         img:"profile.png",
         name:"Juan Pérez",
         age:"23",
@@ -39,6 +40,7 @@ export default [
     {
         id:2,
         img:"profile.png",
+        friend:true,
         name:"Felipe Gómez",
         age:"33",
         status:"Connect",
@@ -71,6 +73,7 @@ export default [
         id:3,
         img:"profile.png",
         name:"Karla Arellano",
+        friend:true,
         age:"43",
         status:"Connect",
         location:"Veracruz, Ver",
@@ -108,7 +111,8 @@ export default [
     {
         id:4,
         img:"profile.png",
-        name:"Juan Pérez",
+        friend:false,
+        name:"Ricardo López",
         age:"43",
         status:"Connect",
         location:"Veracruz, Ver",

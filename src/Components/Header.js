@@ -16,7 +16,6 @@ export default function Header(){
             </Link>
 
             <Link to="/user">
-             <p>User01</p>
             <img src={User} alt="user"/>
             </Link>
            
