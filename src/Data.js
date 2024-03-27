@@ -16,7 +16,19 @@ export default [
          "Leer", "Programar", "Netflix", "Videojuegos","Compras","Rock"
         ],
         photos:[
-           "paisaje.jpg","beauty.jpg","paisaje2.jpg"
+         {  
+           id:1,
+           src:"paisaje.jpg" 
+         },
+         {  
+            id:2,
+            src:"beauty.jpg"
+          },
+          {  
+            id:3,
+            src:"paisaje2.jpg"
+          },
+           
         ],
         posts:[
         
