@@ -51,6 +51,7 @@ function CustomTabPanel(props) {
       const [isOpen, setIsOpen] = useState(false);
        const [isId, setId] = useState(0);
        const picModal= [];
+       const [isModal, setModal]= useState('')
       
     const {id} = useParams()
     
@@ -77,7 +78,8 @@ function CustomTabPanel(props) {
            <button onClick={() => {
             setId(item.id); 
             setIsOpen(true);
-             picModal.push(item.src)
+             picModal.push(`/${item.src}`)
+             setModal(`/${item.src}`)
             
             console.log(picModal)
           }} > 
@@ -86,7 +88,7 @@ function CustomTabPanel(props) {
       
       
       </button>  
-      {isOpen && <Modal setIsOpen={setIsOpen} image={`/${picModal.src}`} text={`/${picModal.src}`}/>} 
+      {isOpen && <Modal setIsOpen={setIsOpen} image={isModal} text={`/${picModal.src}`}/>} 
            
             </div>
             ))
@@ -108,7 +110,7 @@ function CustomTabPanel(props) {
            
 //    ))
        
-console.log(picModal)
+console.log(isModal)
 
     return(
      <section className="photo-grid-container">
