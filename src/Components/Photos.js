@@ -89,7 +89,7 @@ function CustomTabPanel(props) {
       
       
       </button>  
-      {isOpen && <Modal setIsOpen={setIsOpen} image={isModal} text={`/${picModal.src}`}/>} 
+      {isOpen && <Modal setIsOpen={setIsOpen} image={isModal} control={false}/>} 
            
             </div>
             ))

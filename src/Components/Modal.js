@@ -6,7 +6,7 @@ import { RiCloseLine } from "react-icons/ri";
 
 
 
-export default function Modal({ setIsOpen,image,text }){
+export default function Modal({ setIsOpen,image,video,control }){
 
     
 
@@ -22,17 +22,29 @@ export default function Modal({ setIsOpen,image,text }){
             <RiCloseLine style={{ marginBottom: "-3px" }} />
           </button>
           <div className="modalContent">
-           {text}
           </div>
           <div className="modalActions">
             <div className="actionsContainer">
               {/* <button className="deleteBtn" onClick={() => setIsOpen(false)}>
                 Delete
               </button> */}
+              {control === false? 
               <div className="photo-grid-item">
             <img   src={image} alt="card" /> 
           
             </div>
+            :  
+            <div className="video" >
+            <div className="video-container">
+           <video width="400" height="250" controls  >
+         <source src={video} type="video/mp4"/>
+           </video>
+           </div>
+            </div>
+            }
+              
+
+          
               <button
                 className="cancelBtn"
                 onClick={() => setIsOpen(false)}
