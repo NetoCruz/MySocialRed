@@ -30,6 +30,12 @@ export default [
           },
            
         ],
+       videos:[
+         {  
+            id:1,
+            video:"example.mp4"
+          },
+       ],
         posts:[
         
          {
@@ -68,6 +74,7 @@ export default [
         photos:[
             
         ],
+        videos:[],
         posts:[
          
             {
@@ -100,6 +107,8 @@ export default [
         photos:[
             
         ],
+        videos:[],
+       
         posts:[
          
             {
@@ -139,6 +148,7 @@ export default [
         photos:[
          "paisaje.jpg"
         ],
+        videos:[],
         posts:[
         
             {

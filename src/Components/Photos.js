@@ -6,6 +6,7 @@ import Tab from '@mui/material/Tab';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Modal from "./Modal";
+import Videogallery from "./Videogallery";
 import "./Photos.css";
 import Img1 from '../images/pablo.png'
 import { RModalImages } from 'react-modal-images'
@@ -129,7 +130,8 @@ console.log(isModal)
   
 </CustomTabPanel>
 <CustomTabPanel value={value} index={1}>
-  Item Two
+  Item Two 
+  <Videogallery/>
 </CustomTabPanel>
 
         
