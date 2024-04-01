@@ -1,6 +1,6 @@
 import React,{useState} from "react";
 import "./Feed.css"
-
+import Sidebar from "./Sidebar";
 
 export default function Feed({data}){
   
@@ -122,7 +122,8 @@ console.log(list)
    
 
         <div className="feed">
-
+        <Sidebar />
+        <div>
          <button onClick={myData} >click</button> 
         {/* {myPosts}          */}
         {
@@ -144,7 +145,7 @@ console.log(list)
           </div>
             );
           })
-        }
+        }</div>
         </div> 
 
         </>
